@@ -270,7 +270,10 @@ KERNEL(
         lastword = 0x0;
     else
         lastword = *(sword + row*wpl + eiter);
-    
+
+
+
+
     for ( i = 1; i < nwords; i++)
     {
         //Gets LHS words
