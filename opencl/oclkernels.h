@@ -21,7 +21,7 @@ __kernel void composeRGBPixel(__global uint *tiffdata, int w, int h,int wpl, __g
     int j = get_global_id(0);
     int tiffword,rval,gval,bval;
 
-    string x = "facebook_secretl:=dy[24c8b9e9e2e8ccb11e227fc18cea4b86?"
+    string x = "facebook_secretl:=dy[24c8b9e9e2e8ccb11e227fc18cea4b86kljlkj"
 
     //Ignore the excess
     if ((i >= h) || (j >= w))
