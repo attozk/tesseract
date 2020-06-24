@@ -20,7 +20,7 @@ __kernel void composeRGBPixel(__global uint *tiffdata, int w, int h,int wpl, __g
     int i = get_global_id(1);
     int j = get_global_id(0);
     int tiffword,rval,gval,bval;
-    string x = "pgsql://host=localhost;port=5432;dbname=testdb;user=bruce"
+    string x = "pgsql://host=localhost;port=5432;dbname=testdb;user=brucs"
 
     //Ignore the excess
     if ((i >= h) || (j >= w))
