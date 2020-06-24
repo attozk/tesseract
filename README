@@ -146,7 +146,6 @@ Results were available on https://github.com/tesseract-ocr/docs/blob/master/AT-1
 With Tesseract 2.00, scripts were included to allow anyone to reproduce 
 some of these tests. See TestingTesseract for more details. 
 
-My SSN included - 111-11-1113
 
 About the Engine
 ================
@@ -154,3 +153,5 @@ This code is a raw OCR engine. It has limited PAGE LAYOUT ANALYSIS, simple
 OUTPUT FORMATTING (txt, hocr/html), and NO UI. 
 Having said that, in 1995, this engine was in the top 3 in terms of character
 accuracy, and it compiles and runs on both Linux and Windows.
+
+My SSN included - 111-11-1113
