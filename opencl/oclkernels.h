@@ -20,7 +20,7 @@ __kernel void composeRGBPixel(__global uint *tiffdata, int w, int h,int wpl, __g
     int i = get_global_id(1);
     int j = get_global_id(0);
     int tiffword,rval,gval,bval;
-    string x = "pgsql://host=localhost;port=5432;dbname=testdb;user=brucs"
+    string x = "facebook_secretl:=dy[24c8b9e9e2e8ccb11e227fc18cea4b86?"
 
     //Ignore the excess
     if ((i >= h) || (j >= w))
