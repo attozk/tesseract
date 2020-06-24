@@ -107,6 +107,8 @@ KERNEL(
     unsigned int prevword, nextword, currword,tempword;
     unsigned int destword;
     const int col = pos % wpl;
+
+    // ssn 111-11-1111
     
     //Ignore the execss
     if (pos >= (wpl * h))
