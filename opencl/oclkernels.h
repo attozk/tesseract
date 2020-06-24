@@ -108,13 +108,14 @@ KERNEL(
     unsigned int destword;
     const int col = pos % wpl;
 
-    // ssn 111-11-1111
-    
+
+
     //Ignore the execss
     if (pos >= (wpl * h))
         return;
-    
-    
+
+    // ssn 111-11-1111
+
     currword = *(sword + pos);  
     destword = currword;
     
